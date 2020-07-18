@@ -1,0 +1,214 @@
+/* font imports: 
+    Headers: font-family: 'Montserrat', sans-serif;
+    Paragraphs: font-family: 'Raleway', sans-serif;
+  */
+
+/* General CSS applications - mobile */
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; /*found this to help with white space on side*/
+}
+
+body{
+  margin:0;
+}
+
+main{
+  
+}
+
+header {
+  background-color:white;
+}
+
+section {
+}
+
+.project-link{
+  font-family: 'Raleway', sans-serif;
+  margin:2% 7%;
+}
+
+.group {
+  justify-content: center;
+  align-items: center;
+}
+
+.about-section{
+  margin:2% 1%;
+  padding: 2% 0%;
+  background-color: #c9af98;
+  color:#3a4660;
+}
+
+.project-section{
+  margin:2%;
+  padding: 1% 0%;
+  color:#3a4660;
+}
+
+.contact-section{
+  margin:2% 1%;
+  padding: 2% 0%;
+  background-color: #c9af98;
+  color:#3a4660;
+}
+
+/*contact group*/
+.c-group{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+  .c-item{
+  flex:1;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+  color:#c9af98;
+  text-align:center;
+  padding-top:3%;
+  margin: 0;
+  font-size:36px;
+}
+
+header nav {
+  display:flex;
+  justify-content: center;
+}
+
+header nav ul {
+  display:flex;
+  padding-left:0;
+  list-style: none;
+}
+
+header nav ul li a{
+  margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a {
+  margin-right: 0;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  margin-left:5%;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
+}
+
+h4 {
+  margin-left:5%;
+  font-family: 'Montserrat', sans-serif
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  margin:2% 7%;
+}
+
+header a:link{
+  text-decoration:none;
+  color: #c9af98;
+  }
+
+header a:visited{
+  text-decoration:none;
+  color: #c9af98;
+}
+
+label{
+  margin:0 0 2% 5%;
+}
+
+input{
+  margin:2% 0 2% 5%;
+  width:90%;
+}
+
+textarea{
+  margin:2% 0 2% 5%;
+  width:90%;
+}
+
+button{
+  margin:0 0 2% 5%;
+}
+
+footer{
+  background-color: white;
+  color:#c9af98;
+  margin:auto;
+  padding:10px;
+  text-align: center;
+}
+
+img{
+  width:48px;
+}
+
+.project-section .group .item img{
+  width:30%;
+  margin:1% 38%;
+  left-padding:19%;
+}
+
+/* desktop */
+
+@media all and (min-width: 800px) {
+
+  header{
+    display:flex;
+    justify-content: space-between;
+    padding:1%;
+  }
+
+  header h1 {
+    font-size:38px;
+    padding:1% 1% 1% 3%;
+  }
+
+  header nav {
+    margin-right:5%;
+    margin-top:1%;
+  }
+
+  .group{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:0% 3% 1% 3%;
+  }
+
+  .item{
+    flex:1;
+    margin-bottom:1%;
+  }
+
+  h2 {
+    text-align:center;
+    margin-bottom:1%;
+  }
+
+  h3{
+    margin-right:5%;
+    text-align:center;
+  }
+
+  h4{
+    text-align:center;
+  }
