@@ -18,15 +18,8 @@ body{
   margin:0;
 }
 
-main{
-  
-}
-
 header {
   background-color:white;
-}
-
-section {
 }
 
 .project-link{
@@ -164,7 +157,6 @@ img{
 .project-section .group .item img{
   width:30%;
   margin:1% 38%;
-  left-padding:19%;
 }
 
 /* desktop */
